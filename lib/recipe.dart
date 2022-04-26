@@ -19,7 +19,7 @@ class RecipePage extends StatelessWidget {
             children: const [
               HeaderRecipe(),
               Padding(
-                padding: EdgeInsets.only(top: 320),
+                padding: EdgeInsets.only(top: 150),
                 child: RecipeBody(),
               ),
             ],
@@ -134,7 +134,7 @@ class IngredientsCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.only(top: 20, bottom: 40 , left: 15),
+      margin: const EdgeInsets.only(top: 20, bottom: 40, left: 15),
       width: 100,
       decoration: BoxDecoration(
         boxShadow: const [
