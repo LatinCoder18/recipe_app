@@ -240,7 +240,7 @@ class TresIconosSection extends StatelessWidget {
           flex: 1,
           child: Column(
             children: [
-              Icon(Icons.timer_rounded, size: 30, color: Colors.grey[600]),
+              Icon(Icons.timer_rounded, size: 25, color: Colors.grey[600]),
               const Text("45 min"),
             ],
           ),
